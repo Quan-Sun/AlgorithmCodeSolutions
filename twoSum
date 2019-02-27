@@ -9,7 +9,7 @@ Example:
   return [0, 1]
  
  ***02/27/2019***
-```
+```python
 class Solution(object):
   def twoSum(self, nums, target):
       """
