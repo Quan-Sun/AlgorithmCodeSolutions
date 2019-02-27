@@ -27,6 +27,5 @@ class Solution(object):
               if (comp == num) and (i != j):
                   return [i,j]
       return None
-
-The time complexity is O(n<sup>2</sup>)
 ```
+The time complexity is O(n<sup>2</sup>)
