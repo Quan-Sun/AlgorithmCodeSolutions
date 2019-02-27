@@ -52,6 +52,7 @@ class Solution(object):
 The time complexity is O(n)
 
 ***02/27/2019 updated - two pointer***
+
 setting one pointer at the begining, the other at the end; if the sum is greater than target, move the end pointer to minus 1;
 if the sum is less than target, move the begining pointer to plus 1.
 ```python
