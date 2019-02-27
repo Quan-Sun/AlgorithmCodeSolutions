@@ -9,7 +9,7 @@ Example:
   return [0, 1]
  
  ***02/27/2019***
-
+<code>
 class Solution(object):
   def twoSum(self, nums, target):
       """
@@ -27,4 +27,4 @@ class Solution(object):
               if (comp == num) and (i != j):
                   return [i,j]
       return None
-
+</code>
