@@ -30,7 +30,7 @@ class Solution(object):
 ```
 The time complexity is O(n<sup>2</sup>)
 
-***02/27/2019 updated***
+***02/27/2019 updated - dictionary***
 ```python
 class Solution(object):
     def twoSum(self, nums, target):
@@ -48,5 +48,33 @@ class Solution(object):
                 return [storeDict[target - num],i]
             
             storeDict[num] = i 
+```
+The time complexity is O(n)
+
+***02/27/2019 updated - two pointer***
+setting one pointer at the begining, the other at the end; if the sum is greater than target, move the end pointer to minus 1;
+if the sum is less than target, move the begining pointer to plus 1.
+```python
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        storeDict = {}
+        
+        if len(nums) == 0:
+            return None
+        nums = enumerate(nums)
+        nums = sorted(nums,key=lambda x:x[1])
+        l, r = 0, len(nums)-1
+        while l < r:
+            if nums[l][1] + nums[r][1] == target:
+                return [nums[l][0],nums[r][0]]
+            elif nums[l][1] + nums[r][1] < target:
+                l += 1
+            else:
+                r -= 1
 ```
 The time complexity is O(n)
