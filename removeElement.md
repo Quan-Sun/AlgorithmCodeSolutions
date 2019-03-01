@@ -26,3 +26,4 @@ class Solution(object):
             nums.remove(val)
         return len(nums)
 ```
+The time complexity is O(n).
