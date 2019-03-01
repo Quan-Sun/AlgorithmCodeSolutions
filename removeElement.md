@@ -22,6 +22,9 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
+        if nums is None:
+            return None
+            
         while val in nums:
             nums.remove(val)
         return len(nums)
