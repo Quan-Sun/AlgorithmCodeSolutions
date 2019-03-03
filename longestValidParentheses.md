@@ -27,7 +27,7 @@ class Solution(object):
        # dp[i] records the longestValidParenthese EXACTLY ENDING at s[i]
         dp = [0 for x in xrange(len(s))]
         max_to_now = 0
-        for i in xrange(1,len(s)):
+        for i in range(1,len(s)):
             if s[i] == ')':
                 # case 1: ()()
                 if s[i-1] == '(':
