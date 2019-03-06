@@ -21,5 +21,5 @@ Explanation: There are a total of 2 courses to take.
 ```
 
 Note:
- 1. The input prerequisites is a graph represented by a list of edges, not adjacency matrices. Read more about how a graph is represented.
- 2. You may assume that there are no duplicate edges in the input prerequisites.
+  - The input prerequisites is a graph represented by a list of edges, not adjacency matrices. Read more about how a graph is represented.
+  - You may assume that there are no duplicate edges in the input prerequisites.
