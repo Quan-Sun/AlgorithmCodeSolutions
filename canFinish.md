@@ -24,7 +24,8 @@ Note:
   - The input prerequisites is a graph represented by a list of edges, not adjacency matrices. Read more about how a graph is represented.
   - You may assume that there are no duplicate edges in the input prerequisites.
   
-  ***03/09/2019 - Using 'DFS'***
+  ***03/09/2019***
+  ***DFS***
   ```python
   class Solution(object):
     def canFinish(self, numCourses, prerequisites):
@@ -63,3 +64,40 @@ Note:
         return True
 ```
 The time complexity is O(V+E).
+
+***03/09/2019 Updated***
+
+```python
+class Solution:
+# @param {integer} numCourses
+# @param {integer[][]} prerequisites
+# @return {boolean}
+    def canFinish(self, numCourses, prerequisites):
+        # prerequisites graph, course as v, prers as e
+        # use dict for prers as convenience
+        prer_graph = {course:{} for course in xrange(numCourses)}
+        counts = 0
+        finished_course_list = []
+
+        # construct graph
+        for course, prer in prerequisites:
+            prer_graph[course][prer] = True
+
+        # get no incoming edge v
+        for course in xrange(numCourses):
+            if not prer_graph[course]:
+                finished_course_list.append(course)
+
+        # remove edge from graph, and find other no incoming edge v
+        while finished_course_list:
+            counts += 1
+            finished_course = finished_course_list.pop()
+            for course, prers in prer_graph.iteritems():
+                if finished_course in prers:
+                    del prers[finished_course]
+                    if len(prers) == 0:
+                        finished_course_list.append(course)
+
+        return counts == numCourses
+```
+The time complexity(V<sup>2</sup>).
