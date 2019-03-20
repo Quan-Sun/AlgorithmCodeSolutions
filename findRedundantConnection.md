@@ -31,7 +31,7 @@ Note:
 
 ***03/19/2019***
 
-**Disjoint-Set***
+**Disjoint-Set**
 ```python
 class UnionFindSet:
     def __init__(self, n):
