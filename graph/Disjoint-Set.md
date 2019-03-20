@@ -27,4 +27,4 @@ class UnionFindSet:
         return True
 ```
 
-Know more about Disjoint-Set, seeing: [1](https://www.youtube.com/watch?v=VJnUwsE4fWA&index=16&list=PLLuMmzMTgVK5Hy1qcWYZcd7wVQQ1v0AjX&t=0s); [2](https://www.cs.princeton.edu/courses/archive/spring13/cos423/lectures/UnionFind.pdf)
+Know more about Disjoint-Set, seeing: [1](https://www.youtube.com/watch?v=VJnUwsE4fWA&index=16&list=PLLuMmzMTgVK5Hy1qcWYZcd7wVQQ1v0AjX&t=0s) ; [2](https://www.cs.princeton.edu/courses/archive/spring13/cos423/lectures/UnionFind.pdf)
