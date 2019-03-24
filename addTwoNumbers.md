@@ -13,6 +13,7 @@ Input: [2,4,3] [5,6,4]
 Output: [7,0,8]
 
 ***03/24/2019***
+
 ```python
 # Definition for singly-linked list.
 class ListNode(object):
@@ -27,6 +28,11 @@ class Solution(object):
         :type l2: ListNode
         :rtype: ListNode
         """
+        if (l1 is None) or (l2 is None):
+            return 
+        if len(l1) == 0 or len(l2) == 0:
+            return
+            
         dummy = curr = ListNode(0)
         carry = 0
         while l1 or l2 or carry:
