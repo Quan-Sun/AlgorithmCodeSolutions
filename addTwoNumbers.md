@@ -31,8 +31,6 @@ class Solution(object):
         """
         if (l1 is None) or (l2 is None):
             return 
-        if len(l1) == 0 or len(l2) == 0:
-            return
             
         dummy = curr = ListNode(0)
         carry = 0
