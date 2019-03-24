@@ -41,4 +41,4 @@ class Solution(object):
             j += 1
         return s[i+1:j]
 ```
-The time complexity is O(n).
+The time complexity is O(n<sup>2</sup>).
