@@ -23,7 +23,9 @@ Explanation: The answer is "wke", with the length of 3.
 ***03/24/2019***
 
 ```
-Idea: Using the hash map to store the location of the chars we have seen before . Every time we met a new char ,we check have we met it before? if we have met, we get the position and use the the start <= usedChar[s[i]] to make sure we don't worry that 'pwwp' we won't miss w and go straight to p by this
+Idea: Using the hash map to store the location of the chars we have seen before . Every time we met a new char, 
+we check have we met it before? if we have met, we get the position and use the the start <= usedChar[s[i]] to 
+make sure we don't worry that 'pwwp' we won't miss w and go straight to p by this
 ```
 
 ```python
