@@ -1,4 +1,4 @@
-[linkedlist](https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/Linkedlist.png)
+<div align=center><img href="https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/Linkedlist.png">
 
 ```python
 # Node class 
@@ -68,5 +68,4 @@ if __name__=='__main__':
     | 1  |  o-------->| 2  |  o-------->|  3 | null | 
     +----+------+     +----+------+     +----+------+  
     '''
-    ```
     (from https://www.geeksforgeeks.org/linked-list-set-1-introduction/)
