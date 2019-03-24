@@ -1,4 +1,4 @@
-<div align=center><img href="https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/Linkedlist.png"></div>
+<div align=center><p><img src="https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/Linkedlist.png"></p></div>
 
 ```python
 # Node class 
