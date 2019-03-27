@@ -54,3 +54,22 @@ class Solution(object):
         return True
 ```
 The time complexity is O(logn).
+
+***03/27/2019 Updated***
+
+```python
+class Solution(object):
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        if type(x) != int or x is None:
+            return 
+            
+        x = str(x)
+        if x[::-1] == x:
+            return True
+        return False
+```
+The time comlexity is O(n).
