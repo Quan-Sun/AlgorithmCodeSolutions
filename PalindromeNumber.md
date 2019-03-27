@@ -53,7 +53,7 @@ class Solution(object):
             j = j + 1
         return True
 ```
-The time complexity is O(logn).
+The time complexity is O(n).
 
 ***03/27/2019 Updated***
 
