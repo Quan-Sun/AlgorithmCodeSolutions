@@ -121,4 +121,4 @@ class Solution(object):
         else:
             return 0
 ```        
-The time complexity is O(n).        
+The time complexity is O(n).       
