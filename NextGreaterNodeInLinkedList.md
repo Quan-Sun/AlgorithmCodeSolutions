@@ -32,6 +32,8 @@ Output: [7,9,9,9,0,5,0,0]
 ***04/02/2019***
  
 **Reverse + Monotonic Stack**
+
+**Idea**: Create a stack; iterate the reversed linkedlist, if the node value in stack is less than or equal to the node value in linkedlist, remove(pop) it from stack.
  
 ```python
  # Definition for singly-linked list.
