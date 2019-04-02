@@ -33,7 +33,7 @@ Output: [7,9,9,9,0,5,0,0]
  
 **Reverse + Monotonic Stack**
  
-```
+```python
  # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, x):
