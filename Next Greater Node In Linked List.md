@@ -68,4 +68,4 @@ class Solution(object):
 
         return ans
 ```
-The time complexity is O(n<sup>2</sup>).
+The time complexity is O(n).
