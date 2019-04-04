@@ -129,6 +129,14 @@ class MyLinkedList(object):
             curr.next = curr.next.next
 
         self.size -= 1
+        
+    # Your MyLinkedList object will be instantiated and called as such:
+    # obj = MyLinkedList()
+    # param_1 = obj.get(index)
+    # obj.addAtHead(val)
+    # obj.addAtTail(val)
+    # obj.addAtIndex(index,val)
+    # obj.deleteAtIndex(index)
 ```
 
 
@@ -190,4 +198,12 @@ class MyLinkedList(object):
         if index > len(self.lst) - 1 or index < 0:
             return 
         self.lst.pop(index)
+        
+    # Your MyLinkedList object will be instantiated and called as such:
+    # obj = MyLinkedList()
+    # param_1 = obj.get(index)
+    # obj.addAtHead(val)
+    # obj.addAtTail(val)
+    # obj.addAtIndex(index,val)
+    # obj.deleteAtIndex(index)
 ```
