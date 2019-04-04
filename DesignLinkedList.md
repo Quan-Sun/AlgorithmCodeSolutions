@@ -190,3 +190,4 @@ class MyLinkedList(object):
         if index > len(self.lst) - 1 or index < 0:
             return 
         self.lst.pop(index)
+```
