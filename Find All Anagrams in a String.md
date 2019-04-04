@@ -32,7 +32,7 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 
 ***04/04/2019***
 
-**HashTable/SlidingWindow***
+**HashTable/SlidingWindow**
 
 **Idea**: Setting two hash table, respectively counting s and p; setting a sliding window, count of the prev char minus 1 when silding the window
 ```python
