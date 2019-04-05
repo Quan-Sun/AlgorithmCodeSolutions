@@ -38,7 +38,7 @@ class Solution:
         dfs(0,[])
         return ans
 ```
-The time complexity is O(n).
+The time complexity is O(nlogn).
 
 **solution 2: iteration**
 ```python
