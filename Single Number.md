@@ -45,6 +45,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
+        if not nums:
+            return 
         ans=0
         for num in nums:
             ans^=num #bitwise exclusive or
