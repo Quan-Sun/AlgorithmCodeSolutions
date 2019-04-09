@@ -50,3 +50,19 @@ class Solution(object):
         return (3*sum(set(nums)) - sum(nums))//2
 ```
 The time complexity is O(n).
+
+**solution 3**
+```python
+class Solution:
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        a = 0
+        b = 0
+        for c in nums:
+            a, b = (a&~b&~c)|(~a&b&c), (~a&b&~c)|(~a&~b&c)
+        return b
+```
+The time complexity is O(n).
