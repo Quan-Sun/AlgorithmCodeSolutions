@@ -52,3 +52,18 @@ class Solution(object):
         return (left + right) / 2
 ```
 The time complexity is O(logx).
+
+**solution 3: Newton's Method**
+```python
+class Solution(object):
+  def mySqrt(self, x):
+    """
+    :type x: int
+    :rtype: int
+    """
+    a = x
+    while a * a > x:
+      a = (a + x // a) // 2
+    return a
+```
+The time complexity is O(logx).
