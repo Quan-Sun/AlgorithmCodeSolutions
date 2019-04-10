@@ -51,4 +51,4 @@ class Solution(object):
                 left = mid + 1
         return (left + right) / 2
 ```
-The time complexity is O(nlogn).
+The time complexity is O(logx).
