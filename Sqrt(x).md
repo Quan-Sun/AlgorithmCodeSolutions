@@ -30,7 +30,7 @@ class Solution(object):
         """
         return int(math.sqrt(x))
 ```
-The time complexity is O(1) (not sure).
+The time complexity is O(logx) (not sure).
 
 **solution 2: binary search**
 ```python
