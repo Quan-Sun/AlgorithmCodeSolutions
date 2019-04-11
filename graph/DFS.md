@@ -22,7 +22,7 @@ class Graph:
   
         # Mark the current node as visited and print it 
         visited[v]= True
-        print v, 
+        print(v)
   
         # Recur for all the vertices adjacent to this vertex 
         for i in self.graph[v]: 
@@ -52,6 +52,6 @@ g.addEdge(2, 0)
 g.addEdge(2, 3) 
 g.addEdge(3, 3) 
   
-print "Following is DFS from (starting from vertex 2)"
+print("Following is DFS from (starting from vertex 2)")
 g.DFS(2) 
 ```
