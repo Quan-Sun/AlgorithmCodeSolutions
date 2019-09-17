@@ -1,1 +1,1 @@
-Algorithm problems in my or others interview
+Algorithm problems in my or others interview.
